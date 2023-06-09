@@ -1,0 +1,79 @@
+.app-title {
+    margin-top: 30px;
+    font-size: 3rem;
+    transition: all 0.5s ease;
+  }
+  .app-title:hover {
+    transform: scale(1.1);
+    cursor: default;
+    color: rgb(255, 255, 116);
+    text-shadow: 5px 4px 24px rgba(255, 255, 116, 1);
+  }
+
+.header-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.items {
+  display: flex;
+  justify-content: space-around;
+  width: 180px;
+  color: rgb(178, 223, 40);
+  font-size: 1.5em;
+  position: relative;
+  top: -60px;
+}
+.botones {
+  width: 220px;
+  height: 30px;
+  position: relative;
+  top: -60px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.items a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s ease;
+}
+.items a:hover {
+  text-decoration: none;
+  color: rgb(178, 223, 40);
+  transform: scale(1.5);  
+}
+.rickandmortyImg {
+  transition: all 0.5s ease-out;
+  position: relative;
+  top: -30px;
+}
+.rickandmortyImg:hover {
+  transform: scale(1.2);
+}
+
+.rym {
+  width: 175px;
+    left: -4px;
+    top: 105px;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+.rym:hover {
+  transform: scale(1.1);
+}
+
+.btn-nav {
+  background: none;
+    outline: none;
+    border: none;
+    transition: all 0.1s ease;
+}
+
+.btn-nav:hover {
+  border-bottom: 2px solid rgb(178, 223, 40);
+  color: rgb(178, 223, 40);
+  
+}
